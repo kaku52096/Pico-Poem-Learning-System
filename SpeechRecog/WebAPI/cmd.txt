@@ -1,0 +1,1 @@
+conda activate sensevoice; python asr_server.py
