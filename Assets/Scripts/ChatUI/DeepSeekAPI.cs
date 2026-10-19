@@ -9,7 +9,9 @@ using UnityEngine.Networking;
 public class DeepSeekAPI : SingletonMono<DeepSeekAPI>
 {
     // API Settings
-    private string apiKey = "sk-5924cc514a7a416c85161ad9a989e9be";
+    // 将 <> 替换为自己的 DeepSeek API Key（形如 sk-...）。
+    // 仓库中保留占位符，避免把真实密钥提交后泄露；本地运行前再填入，且不要提交该改动。
+    private string apiKey = "<>";
     private string apiUrl = "https://api.deepseek.com/chat/completions";
 
     // API call back
@@ -80,7 +82,7 @@ public class DeepSeekAPI : SingletonMono<DeepSeekAPI>
         }
         else
         {
-            callback?.Invoke($"{data.name} �����Ĭ", false);
+            callback?.Invoke($"{data.name} �����Ĭ", false);
         }
         request.Dispose();
     }
