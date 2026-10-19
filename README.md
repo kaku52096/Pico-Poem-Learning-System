@@ -8,15 +8,15 @@
 
 左手使用点赞手势开关交互面板
 
-![](docs/images/handpose.png)
+<img src="docs/images/handpose.png" width="640">
 
 右手启用点赞手势时，可输入语音；结束手势后自动转为文字
 
-![](docs/images/mainmenu.png)
+<img src="docs/images/mainmenu.png" width="640">
 
 用户与诗词学习助手对话时，系统生成赏析并判断当前讨论诗词是否适合生成虚拟现实场景，同时缓存地形、天气、声音等参数。当用户想要体验此场景时，若缓存已就绪，系统按参数程序化生成地形、水体、建筑、物品、天气、声音等。
 
-![](docs/images/jiangxue.png)
+<img src="docs/images/jiangxue.png" width="640">
 
 > 千山鸟飞绝，  
 > 万径人踪灭。  
@@ -25,7 +25,7 @@
 >
 > ——〔唐〕柳宗元《江雪》
 
-![](docs/images/mushan.png)
+<img src="docs/images/mushan.png" width="640">
 
 > 渡口、向晚，乘瘦马、陟平冈。西郊又送秋光。对暮山横翠，衬残叶飘黄。凭高念远，素景楚天，无处不凄凉。
 > 
@@ -115,7 +115,7 @@ python asr_server.py
 
 系统只有主场景 `MainScene`，赏析、语音和场景生成都在这一场景里完成。
 
-![主场景层级](docs/images/MainScene.png)
+<img src="docs/images/mainscene.png" alt="主场景层级" width="640">
 
 - `XR Interaction Setup` 中的 `XR Origin`：定位、手势、射线和摄像机
 - `UICanvas`：聊天与引导界面
