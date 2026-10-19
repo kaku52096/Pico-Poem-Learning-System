@@ -123,3 +123,13 @@ Assets/Plugins/Sirenix/Demos/*
 # Gaia
 Assets/Procedural*Worlds/Gaia/Asset*Samples/*
 Assets/Samples/Terrain*Tools/*
+
+# Per-machine Unity editor state
+/[Uu]ser[Ss]ettings/
+
+# Signing keys
+*.keystore
+*.jks
+
+# Pico SDK driver logs
+ps_driver_sdk*.log
